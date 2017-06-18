@@ -29,7 +29,7 @@ app.post('/uploadImg', upload.array('pics'), (req, res, next)=>{
 
     })
 });
-
-app.listen(8888, ()=>{
-    console.log('Hosted on Port 8888')
+var port = process.env.PORT || 8888;
+app.listen(port, ()=>{
+    console.log('Hosted on Port '+ port)
 });
