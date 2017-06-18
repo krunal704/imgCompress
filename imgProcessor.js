@@ -24,7 +24,7 @@ module.exports = {
             new Jimp(file.buffer, (err, image)=>{
 
                 //Resize this image
-                image.resize(512, 512)
+                image.resize(800, 800)
                     //lower the quality by 90%
                     .quality(20)
                     .getBuffer(type.mime, (err, buffer)=>{

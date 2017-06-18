@@ -11,8 +11,8 @@ let express= require('express')
     //Import imgProcessor module which we would implement later
     ,imgProc = require('./imgProcessor');
 
-app.use(express.static(path.join(__dirname, 'assets')));
-app.set('/assets', path.join(__dirname, 'assets'));
+app.use(express.static(path.join(__dirname, 'node_modules')));
+
 
 app.get('/', (req, res, next)=>{
     res.sendFile(__dirname+'/main.html');
