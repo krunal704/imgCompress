@@ -4,7 +4,7 @@
     "main": "app.js",
     "license": "MIT",
     "scripts": {
-    "start": "node app.js"
+        "start": "node app.js"
     },
     "dependencies": {
         "bluebird": "^2.10.2",
@@ -12,9 +12,9 @@
         "express": "^4.13.3",
         "file-type": "^3.0.0",
         "jimp": "^0.2.8",
-        "jquery": "^2.1.4",
-        "lodash": "^3.10.1",
-        "materialize-css": "^0.97.1",
+        "jquery": "^3.4.1",
+        "lodash": "^4.17.11",
+        "materialize-css": "^1.0.0",
         "multer": "^1.0.3"
-      }
+    }
 }
